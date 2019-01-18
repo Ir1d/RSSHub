@@ -151,3 +151,11 @@ RSSHub 提供下列 API 接口:
 | ---- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
 | 0    | 1        | 2        | 6        | 8        | 7        | 5        | 3        | 4        |
 </route>
+
+## LIST
+
+返回一个用户通过的题目数
+
+### POJ
+
+<route name="POJ list" author="Ir1d" example="/list/poj/imcaffrey" path="/routes/linhua/poj/:user" :paramsDesc="['user 处为用户名']" />
