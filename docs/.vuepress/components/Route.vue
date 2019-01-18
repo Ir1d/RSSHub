@@ -4,7 +4,7 @@
     <a :href="'#'+path" aria-hidden="true" class="header-anchor">#</a>
   </h4>
   <p class="example">
-    举例: <a :href="'https://rsshub.app'+ example " target="_blank">https://rsshub.app{{example}}</a>
+    举例: <a :href="'https://api.linhua.org'+ example " target="_blank">https://api.linhua.org{{example}}</a>
   </p>
   <p class="path">
     路由: <code>{{ path }}</code>
