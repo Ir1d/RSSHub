@@ -1,0 +1,6 @@
+{	
+    "version": "https://jsonfeed.org/version/1",	
+    "title": "{{ title || 'LinHua' }}",	
+    "url": "{{ url || 'https://github.com/24OI/OI-wiki' }}",	
+    "list": "{{ item || [] }}"
+}	
